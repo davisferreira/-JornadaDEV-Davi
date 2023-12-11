@@ -2,7 +2,7 @@ import utils from './utils.js'
 import RNA from './RNA.js'
 import controls from './controls.js'
 
-const SAMPLES = 20
+const SAMPLES = 2;
 const game = Runner.instance_;
 let dinoList = []
 let dinoIndex = 0
@@ -82,5 +82,5 @@ setInterval(() => {
 
 /* const s = document.createElement('script');
 s.type = 'module';
-s.src = 'http://localhos:5500/script.js'
+s.src = 'http://localhost:5500/script.js'
 document.body.appendChild(s); */
